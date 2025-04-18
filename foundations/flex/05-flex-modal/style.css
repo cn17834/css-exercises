@@ -24,7 +24,8 @@ body {
   gap: 20px;
   display: flex;
 }
-
+/* this was done to add the vertical gaps between the title, text and buttons using flex properties only
+  a simpler way to do this without flex is to add margin-bottom to both the text and the header */
 .container {
   display: flex;
   flex-direction: column;
@@ -73,6 +74,7 @@ button {
   border-radius: 8px;
 }
 
+/* makes bottom buttons horizontal again */
 buttons {
   display: flex;
 }
