@@ -13,10 +13,6 @@ img {
   width: 600px;
 }
 
-.header {
-  display: flex;
-  justify-content: space-between;
-}
 
 .content {
   display: flex;
@@ -26,16 +22,17 @@ img {
   align-items: center;
 }
 
-.footer {
+.header, .footer {
   display: flex;
+  padding: 10px;
   justify-content: space-between;
-  align-items: end;
+}
+
+.footer {
   background-color: #eeeeee;
 }
 
-.header, .footer {
-  padding: 10px;
-}
+
 
 ul {
   list-style-type: none;
